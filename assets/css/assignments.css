@@ -1,0 +1,171 @@
+.assignments-container > div::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 3px;
+}
+
+.assignments-container > div::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #b3afaf;
+}
+.assignments-container > div::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 0%, 0.1);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.assignments-page .card.bg-dgray {
+  background-color: #e1e1e1;
+}
+.assignments-page .card.bg-lgray {
+  background-color: #f4fff3;
+}
+.assignments-page .assignments-container {
+  height: 560px;
+}
+.assignments-container > div {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.assignments-container .row {
+  min-height: 100%;
+}
+
+.assignments-page .assignments-container .card {
+  overflow: hidden;
+}
+.assignments-page .topic-box {
+  width: 100%;
+  min-height: 105px;
+  background: #ffffff;
+  border: 1px solid #999999;
+  border-radius: 11px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.assignments-page .topic-item {
+  background: #eeeeee;
+  padding: 6px;
+  border-radius: 5px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6d6d6d;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+}
+.assignments-page .card p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #434343;
+}
+.assignments-page .card .tech-text {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(67, 67, 67, 0.54);
+}
+.assignments-page .card-footer button {
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  margin: auto 0;
+}
+.assignments-page .decline-btn {
+  background: #d90000;
+  border: 1px solid #ff0000;
+}
+.assignments-page .hire-btn {
+  background: #5490ea;
+}
+.assignments-page .br {
+  border-right: 2px solid #d9d9d9;
+}
+@media only screen and (max-width: 1190px) {
+  .assignment-page .br {
+    border-right: none;
+  }
+}
+.star-ratings {
+  width: fit-content;
+  unicode-bidi: bidi-override;
+  color: #ccc;
+  font-size: 28px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.star-ratings .fill-ratings {
+  color: #419fff;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.star-ratings .fill-ratings span {
+  display: inline-block;
+}
+.star-ratings .empty-ratings {
+  padding: 0;
+  display: block;
+}
+
+#assignments_list {
+  max-width: 366px;
+  margin: auto;
+  /* overflow: scroll !important;
+  overflow-x: hidden !important; */
+}
+
+#assignments_list::-webkit-scrollbar {
+  width: 0px !important;
+  border-radius: 3px !important;
+}
+
+/* #assignments_list::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 3px;
+}
+
+#assignments_list::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #b3afaf;
+}
+#assignments_list::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 0%, 0.1);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+} */
+
+/* #assignments_list{
+  overflow-y: scroll;
+  
+  -ms-overflow-style: none;   
+  scrollbar-width: none;   
+}
+
+ 
+#assignments_list::-webkit-scrollbar {
+  display: none;
+} */
+
+code {
+  font-size: 12px !important;
+  line-height: 14px !important;
+
+  color: #434343 !important;
+
+  /* word-wrap: break-word; */
+}

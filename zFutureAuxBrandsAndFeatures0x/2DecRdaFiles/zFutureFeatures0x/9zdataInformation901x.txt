@@ -1,0 +1,9 @@
+107.131.130.208, 172.70.214.167, yes, 
+107.131.130.208, 172.70.214.167, recommend, 
+107.131.130.208, 172.70.214.167, yes, hello@rubberduckyanswers.com
+107.131.130.208, 172.70.214.167, recommend, hello@rubberduckyanswers.com
+2600:1700:5132:a830:1d1a:1287:2097:cedc, 172.70.211.104, yes, thisStillWorks@gmail.com
+209.122.203.50, 172.70.230.69, recommend, bbbj@gmail.con
+2600:1700:5132:a830:bc94:18e7:3b51:5a52, 172.70.206.57, yes, hello@rubberduckyanswers.com
+102.159.127.225, 172.70.250.207, yes, jojos.b.dev@gmail.com
+2405:201:200d:19d5:bdd4:8834:7180:7ff0, 162.158.170.145, yes, bcbronisquad@gmail.com

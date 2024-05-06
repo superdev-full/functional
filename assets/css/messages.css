@@ -1,0 +1,102 @@
+.user-container::-webkit-scrollbar,
+.chatting-box-body::-webkit-scrollbar {
+  width: 0;
+  border-radius: 3px;
+}
+.user-container:hover::-webkit-scrollbar,
+.chatting-box-body:hover::-webkit-scrollbar{
+  width: 8px;
+}
+.user-container::-webkit-scrollbar-thumb, 
+.chatting-box-body::-webkit-scrollbar-thumb{
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #b3afaf;
+}
+.user-container::-webkit-scrollbar-track, 
+.chatting-box-body::-webkit-scrollbar-track{
+  background: hsla(0, 0%,0%, 0.1);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.message-page .main-container {
+  width: 1200px;
+  max-width: 100%;
+}
+.message-page .main-container .card {
+  height: 707px;
+  min-height: 100%;
+}
+.user-container{
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.message-page .user-box {
+  position: relative;
+  cursor: pointer;
+}
+.message-page .user-box::after {
+  content: "";
+  position: absolute;
+  left: 50px;
+  bottom: 0;
+  width: calc(100% - 50px);
+  height: 1px;
+  background-color: #d9d9d9;
+}
+.message-page .user-box:last-child:after {
+  display: none;
+}
+.chatting-box{
+  height: 100%;
+}
+.chatting-box-header {
+  border-bottom: 1px solid #d9d9d9;
+}
+.chatting-box-body{
+  height: calc(100% - 150px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.msg-box {
+  width: 456px;
+  max-width: 100%;
+  padding: 17px 22px 17px 12px;
+  margin-bottom: 24px;
+}
+.msg-box.user {
+  background: rgba(91, 157, 255, 0.15);
+  border-radius: 0px 15px 15px 15px;
+}
+.msg-box.me {
+  background: rgba(91, 157, 255, 0.02);
+  border: 1px solid #5b9dff;
+  border-radius: 15px 0px 15px 15px;
+  margin-left: auto;
+}
+.back-btn {
+  cursor: pointer;
+  transition: opacity ease 400ms;
+}
+.back-btn:hover {
+  opacity: 0.5;
+}
+.user-container{
+  z-index: 2;
+  background-color: #fff;
+  display: none;
+}
+.user-container.active{
+  display: block;
+}
+.chatting-container{
+  background-color: #fff;
+  z-index: 1;
+}
+@media only screen and (max-width: 767px) {
+  .user-container,
+  .chatting-container {
+    position: absolute;
+    border-right: 0 !important;
+  }
+}

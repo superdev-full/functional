@@ -1,0 +1,155 @@
+.index-page .main-container {
+  width: 1300px;
+  max-width: 100%;
+}
+.index-page .card {
+  overflow: hidden;
+}
+.srh-box {
+  position: relative;
+  background-color: #fff;
+  border-radius: 12px;
+  filter: drop-shadow(3px 4px 13px rgba(0, 0, 0, 0.53));
+  padding: 3px;
+  z-index: 4;
+}
+.srh-box svg {
+  position: absolute;
+  left: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #98989d;
+}
+input#search {
+  padding: 10px 10px 10px 60px;
+  width: 100%;
+  border: 1px solid #c8c8c8;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  outline: none;
+}
+
+.index-page ul.drop {
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  top: 44px;
+  padding: 0 32px 8px;
+  width: fill-available;
+  width: -webkit-fill-available;
+  background: #fff;
+  border-radius: 0px 0px 15px 15px;
+  height: 0;
+  overflow: hidden;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.4s height;
+  z-index: 3;
+}
+
+.index-page ul.drop li {
+  font-size: 13px;
+  padding: 8px 9px;
+  list-style: none;
+  border-top: 1px solid #ddd;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #484848;
+  cursor: pointer;
+}
+.index-page ul.drop li:first-child {
+  border-top: none;
+  padding-top: 32px;
+}
+.index-page ul.drop li:last-of-type {
+  padding-bottom: 32px !important;
+}
+.index-page ul.drop a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1673ff;
+  position: absolute;
+  right: 26px;
+  bottom: 8px;
+}
+.index-page .match {
+  font-weight: 600;
+  color: green;
+}
+.index-page h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+}
+.srh-container {
+  position: relative;
+  width: 584px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+#signInModalBtn {
+  width: 120px;
+  height: 34px;
+  background: #ffffff;
+  border: 3px solid #282424;
+  border-radius: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+}
+#signInFormModal .modal-content {
+  width: 557px;
+  max-width: 100%;
+}
+#signUpFormModal .modal-content {
+  width: 557px;
+  max-width: 100%;
+}
+#signInFormModal .modal-content,
+#signUpFormModal .modal-content {
+  background: #ffffff;
+  border-radius: 35px;
+  padding: 18px 32px;
+}
+#signInBtn,
+#signUpBtn {
+  background: #282424;
+  width: 100%;
+  height: 58px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+}
+.modal button.close {
+  font-size: 50px;
+  padding: 0;
+}
+.index-page input {
+  width: 100%;
+  background: #ffffff;
+  padding: 17px 26px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 9px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  box-shadow: none;
+}
+.form-footer {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
